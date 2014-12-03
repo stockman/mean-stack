@@ -4,8 +4,19 @@ angular.module('newyappeApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
       'title': 'Home',
-      'link': '/'
-    }];
+      'link': '/',
+      'class': 'glyphicon glyphicon-home'
+    }, {
+      'title': 'Settings',
+      'link': '/settings',
+      'class': 'glyphicon glyphicon-cog'
+    }
+    , {
+      'title': 'Profile',
+      'link': '/profile',
+      'class': 'glyphicon glyphicon-tree-deciduous'
+    }
+    ];
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;

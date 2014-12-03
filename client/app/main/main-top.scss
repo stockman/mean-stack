@@ -1,0 +1,25 @@
+
+.top .form-control {
+    margin-top: 2px;
+}
+//-- the top controls
+.top .input-group .btn {
+    border-radius: 50%
+}
+
+.top .input-group .form-control {
+    border-radius: 26px
+}
+
+.top{
+    margin: 1%
+}
+
+.top {
+    p, span {padding: 0 1%}
+}
+
+//override the button colour
+.top .btn-primary {
+  background-color: #1C39BB;
+}
